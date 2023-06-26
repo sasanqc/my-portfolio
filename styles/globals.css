@@ -2,26 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer base {
+  @font-face {
+    font-family: "Space Grotesk";
+    font-display: swap;
+    font-weight: 100 900;
+    src: url("/assets/font/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf")
+      format("truetype");
+  }
+  h1 {
+    @apply text-xl font-bold tracking-[-2.5px];
+  }
+  h2 {
+    @apply text-lg font-bold tracking-[-1.5px];
+  }
+  h3 {
+    @apply text-md font-bold;
   }
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.project {
+  @apply relative gradient-bg lg:hover:after:bg-[#000000bf] overflow-hidden h-[250px] lg:h-[400px] rounded-sm;
+}
+.gradient-bg::after {
+  position: absolute;
+  top: 0;
+  content: "";
+  z-index: 20;
+  width: 100%;
+  height: 100%;
+  display: block;
+  transition: all 0.2s ease;
 }
