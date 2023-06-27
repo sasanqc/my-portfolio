@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <section className="flex flex-col lg:flex-row pt-20 justify-between gap-x-10 pb-24 border-b border-b-gray">
       <div className="flex-1 text-center lg:text-left mb-12 lg:mb-0">
-        <h1 className="mb-9">Contact</h1>
+        <h1 className=" mb-9 text-xlm sm:text-xlt lg:text-xl">Contact</h1>
         <p className="text-base text-gray lg:max-w-[445px]">
           I would love to hear about your project and how I could help. Please
           fill in the form, and I’ll get back to you as soon as possible.

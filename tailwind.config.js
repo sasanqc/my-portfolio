@@ -18,6 +18,7 @@ module.exports = {
       base: ["18px", "28px"],
       md: ["24px", "32px"],
       lg: ["48px", "56px"],
+      xlm: ["40px", "40px"],
       xlt: ["72px", "72px"],
       xl: ["88px", "88px"],
     },

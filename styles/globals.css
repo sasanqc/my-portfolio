@@ -14,7 +14,7 @@
     @apply text-xl font-bold tracking-[-2.5px];
   }
   h2 {
-    @apply text-lg font-bold tracking-[-1.5px];
+    @apply text-[32px] sm:text-lg font-bold tracking-[-1.5px];
   }
   h3 {
     @apply text-md font-bold;

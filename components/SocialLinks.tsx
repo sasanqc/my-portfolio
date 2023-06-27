@@ -6,7 +6,7 @@ import Github from "@/icons/icon-github.svg";
 import Link from "next/link";
 const SocialLinks = () => {
   return (
-    <ul className="flex items-center gap-x-8">
+    <ul className="flex items-center sm:gap-x-8 gap-x-5  w-fit mx-auto">
       <li className="cursor-pointer hover:text-green transition-colors">
         <Link href={"https://github.com"}>
           <Github />

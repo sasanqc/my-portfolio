@@ -14,7 +14,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <section className="grid grid-cols-2 lg:grid-cols-3 gap-y-16 mb-36">
+    <section className="grid grid-cols-1 text-center sm:text-left sm:grid-cols-2 lg:grid-cols-3 gap-y-6 sm:gap-y-16 mb-20 sm:mb-36 border-b pb-16 sm:pb-0 sm:border-b-0 border-b-gray">
       {skills.map((skill, index) => (
         <SkillItem
           title={skill.title}
