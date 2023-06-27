@@ -61,7 +61,7 @@ const TextInput = forwardRef<ImperativeInput, TextInputProps>(
           />
           {error && (
             <div className="absolute  text-[12px] right-0 text-red text-base font-spaceGrotesk bottom-[-30px]">
-              {"Sorry Invalid format here"}
+              {error}
             </div>
           )}
         </div>

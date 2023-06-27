@@ -2,6 +2,12 @@ import Button from "@/components/UI/Button";
 import React from "react";
 
 const Hero = () => {
+  const handleScrollToContactMe = () => {
+    const element = document.getElementById("contact");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <section className="border-b-[1px] border-b-gray mb-12 lg:mb-16 relative z-20">
       <div className="text-center sm:text-left sm:max-w-[445px] lg:max-w-[710px]">
@@ -18,7 +24,7 @@ const Hero = () => {
         </p>
       </div>
       <div className="mb-20 sm:mb-12 lg:mb-52 flex  sm:block justify-center">
-        <Button onClick={() => {}}>contact me</Button>
+        <Button onClick={handleScrollToContactMe}>contact me</Button>
       </div>
     </section>
   );
