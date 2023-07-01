@@ -19,8 +19,9 @@ const Hero = () => {
           <span className=" underline decoration-green">Sasan Salehzadeh.</span>
         </h1>
         <p className="text-base text-gray sm:max-w-[400px] lg:max-w-[450px] mb-6 sm:mb-16 ">
-          Based in Iran, I’m a front-end developer passionate about building
-          accessible web apps that users love.
+          Based in Iran, I'm a highly skilled and motivated front-end developer
+          with expertise in React.js and a passion for creating user-friendly
+          web applications
         </p>
       </div>
       <div className="mb-20 sm:mb-12 lg:mb-52 flex  sm:block justify-center">
