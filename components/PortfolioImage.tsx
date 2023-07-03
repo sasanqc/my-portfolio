@@ -6,8 +6,8 @@ const PortfolioImage = () => {
     <div className="absolute left-1/2 translate-x-[-50%] sm:left-[unset] sm:translate-x-[0] sm:right-0 sm:lef lg:right-44 z-0 sm:-top-10 sm:overflow-hidden lg:overflow-visible">
       <div className="hidden sm:block">
         <Image
-          alt="Sasan Salehzadej"
-          src={"/assets/images/image-profile-desktop.webp"}
+          alt="Sasan Salehzadeh"
+          src={"/assets/images/image-profile-desktop-me.webp"}
           width={445}
           height={720}
           className="bg-gray"
@@ -16,10 +16,10 @@ const PortfolioImage = () => {
       <div className="block sm:hidden">
         <Image
           alt="Sasan Salehzadeh"
-          src={"/assets/images/image-profile-mobile.webp"}
+          src={"/assets/images/image-profile-mobile-me.webp"}
           width={174}
           height={383}
-          className=""
+          className="bg-[#24242485]"
         />
       </div>
 
