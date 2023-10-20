@@ -10,6 +10,9 @@ const skills = [
   { title: "Typescript", description: "1 Year Experience" },
   { title: "Nextjs", description: "1 Year Experience" },
   { title: "Docker", description: "1 Year Experience" },
+  { title: "Jest", description: "1 Year Experience" },
+  { title: "Cypress.io", description: "1 Year Experience" },
+  { title: "PWA", description: "1 Year Experience" },
 ];
 
 const Skills = () => {

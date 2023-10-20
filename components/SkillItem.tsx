@@ -7,7 +7,7 @@ const SkillItem: React.FC<SkillItemProps> = ({ title, description }) => {
   return (
     <div>
       <h2>{title}</h2>
-      <p className="text-base text-gray">{description}</p>
+      {/* <p className="text-base text-gray">{description}</p> */}
     </div>
   );
 };
